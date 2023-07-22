@@ -10,7 +10,7 @@ dotenv.config();
 const mongoose = require('mongoose');
 mongoose
   .connect(
-    process.env.MONGODB_TUTORIAL || 'mongodb://localhost:27017/tutorial',
+    process.env.MONGODB_TUTORIAL || 'mongodb+srv://jesusfb:Dove3229-@cluster0.yx9sjqo.mongodb.net/tutorial',
     {
       useNewUrlParser: true,
       useUnifiedTopology: true
